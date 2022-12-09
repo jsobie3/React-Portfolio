@@ -1,17 +1,17 @@
 import React from 'react';
 
-function header () {
+function Header () {
     return (
-        <div>
-            <ul id = ' nav' className = 'nav'>
-                <li className='navLink'>Test 1 </li>
-                <li className='navLink'>Test 2 </li>
-                <li className='navLink'>Test 3 </li>
-                <li className='navLink'>Test 4 </li>
+        <div class = " topNav ">
+            <ul  className = 'nav'>
+                <li className='navLink'> <a href ='#aboutMe'>About Me </a></li>
+                <li className='navLink'> <a href ='#portfolio'>Portfolio</a></li>
+                <li className='navLink'> <a href ='#contact'>Contact </a></li>
+                <li className='navLink'> <a href ='#resume'>Resume </a></li>
 
             </ul>
         </div>
     )
 }
 
-export default header;
+export default Header;
