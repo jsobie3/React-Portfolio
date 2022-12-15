@@ -69,6 +69,27 @@ a {
   height: 2.5rem; 
 }
 
+.mainCard {
+  background-color: #282c34;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  margin: 10px;
+  
+  
+}
+.projectCard {
+  background-color: gray;
+  height: 500px;
+  width: 500px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  align-items: flex-start;
+}
+
 
 
 @keyframes App-logo-spin {
