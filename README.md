@@ -2,6 +2,7 @@
 
 <h3> Working home page and footer </h3>
 
+https://jsobie3.github.io/React-Portfolio/
 ![image](https://user-images.githubusercontent.com/109123352/210479719-307def61-9474-4318-ae8d-0f07d2583469.png)
 
 
