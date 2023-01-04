@@ -7,92 +7,73 @@ import Image from 'react-bootstrap/Image'
 function PortfolioContainer() {
   return (
     <div className='leftSide'>
-      <Row xs={1} md={2} className="g-4">
 
-
-
-
-        {/* pic  one */}
-        {/* <Card className="myPic"> */}
-          <img className='myPic' src={require('../images/jakub.jpg')} />
-          <Card.Text>
+      <div className="myCard">
+        <img className='myPic' src={require('../images/jakub.jpg')} />
+        <div className='aboutMe'>
+          <p>
             Hi! My name is Jakub Sobieraj!
             I'm studying to be a full stack dev, but prefer frontend work, and love working with bootstrap!
-          </Card.Text>
-        {/* </Card> */}
+          </p>
+        </div>
+      </div>
+
+      <Row xs={1} md={2} className="g-4">
+
+        <div className="rightSide">
+          {/* First  one */}
+          <div className='portfolioContainers'>
+            <Col>
+              <Card bg="black">
+              <img className='myPic' src={require('../images/gaming grandpas.jpg')} />
+                <Card.Body>
+                  <Card.Title class='text-white'>Gaming Grandpas</Card.Title>
+                  <Card.Text class='text-white'>
+                    Gaming Grandpas was my first project that I Collabed on. We took two differnt game APIs and were able to splice data to show the best sale price of games.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </div>
 
 
-        {/* First  one */}
-        <div className='portfolioContainers'>
-          <Col>
-            <Card bg="primary">
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Img src="../public/jakub_sobieraj.jpg" alt="Card image" />
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional TEST TEST TEST content. This content is a little bit
-                  longer.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+
+          {/* 2nd one */}
+           <div className='portfolioContainers'>
+            <Col>
+              <Card bg="black">
+              <img className='myPic' src={require('../images/bestmen.jpg')} />
+                <Card.Body>
+                  <Card.Title class='text-white'>The Best Men</Card.Title>
+                  
+                  <Card.Text class='text-white'>
+                    The second project I worked on, I focused on front end development and making a cocktail database display data in a sophisticated manner.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </div>
+
+          {/* 3rd one */}
+          <div className='portfolioContainers'>
+            <Col>
+              <Card bg="black">
+              <img className='myPic' src={require('../images/GiftHub.JPG')} />
+                <Card.Body>
+                  <Card.Title class='text-white'>GiftHub</Card.Title>
+                  
+                  <Card.Text class='text-white'>
+                    The last project I worked on is a gift exchange web app, named GiftHub. The goal is to let users register for events, such as wedding showers or holiday grab bags, and operate through GiftHub.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </div>
+
+
+          
         </div>
 
-
-
-        {/* 2nd one */}
-        <div className='portfolioContainers'>
-          <Col>
-            <Card bg="primary">
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional TEST TEST TEST content. This content is a little bit
-                  longer.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </div>
-
-        {/* 3rd one */}
-        <div className='portfolioContainers'>
-          <Col>
-            <Card bg="primary">
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional TEST TEST TEST content. This content is a little bit
-                  longer.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </div>
-
-
-        {/* last one */}
-        <div className='portfolioContainers'>
-          <Col>
-            <Card bg="primary">
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional TEST TEST TEST content. This content is a little bit
-                  longer.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </div>
       </Row>
     </div>
 

@@ -8,34 +8,24 @@ import { Card, CardImg } from 'react-bootstrap';
 import { img1 } from '../images/jakub.jpg'
 
 function TopBar() {
-    return (
-      <>
-        <Navbar bg="dark" variant="dark">
-          <Container>
-            <Navbar.Brand href="#home">Jakub Sobieraj</Navbar.Brand>
-            <div className = 'pic'>
-              {/* <Card className ='me'>
-              <img src={require('../images/jakub.jpg')} />
-              </Card> */}
-            </div>
-            {/* <CardImg src={img1} alt="Card image" /> */}
-            <Nav className="me-auto">
-              <Nav.Link href="#Resume">Resume</Nav.Link>
-              <Nav.Link href="#Contact">Contact</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-            </Nav>
+  return (
+    <>
+      <Navbar bg="dark" variant="dark">
 
+        {/* <Navbar.Brand href="#home">Jakub Sobieraj</Navbar.Brand> */}
 
-    
-          </Container>
-        
-       
+        <Container>
 
-        </Navbar>
+          <Nav className="navbarRight">
+            <Nav.Link href="#Home">Home</Nav.Link>
+            <Nav.Link href="#Contact">Contact</Nav.Link>
+            <Nav.Link href="#Resume">Resume</Nav.Link>
+          </Nav>
 
-       
-      </>
-    );
-  }
-  
-  export default TopBar;
+        </Container>
+      </Navbar>
+    </>
+  );
+}
+
+export default TopBar;
