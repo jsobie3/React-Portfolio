@@ -90,8 +90,21 @@ a {
   align-items: flex-start;
 }
 
+.myPic {
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+  width: auto;
+  border-radius: 10%;
+  background-color: none;
+}
+.myCard {
+  background-color: none;
+}
 
-
+.leftSide {
+  background-color: #61dafb;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
