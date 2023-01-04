@@ -1,5 +1,17 @@
 # 20 React: React Portfolio
 
+<h3> Working home page and footer </h3>
+
+https://jsobie3.github.io/React-Portfolio/
+![image](https://user-images.githubusercontent.com/109123352/210479719-307def61-9474-4318-ae8d-0f07d2583469.png)
+
+
+
+
+
+
+
+
 ## Your Task
 
 Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
