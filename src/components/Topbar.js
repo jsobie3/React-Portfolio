@@ -19,7 +19,7 @@ function TopBar() {
           <Nav className="navbarRight">
             <Nav.Link href="#Home">Home</Nav.Link>
             <Nav.Link href="#Contact">Contact</Nav.Link>
-            <Nav.Link href="#Resume">Resume</Nav.Link>
+            <Nav.Link href="./images/jsobieraj_Resume_Dev.docx.pdf">Resume</Nav.Link>
           </Nav>
 
         </Container>
