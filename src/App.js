@@ -1,9 +1,9 @@
-import About from "./components/About";
+import About from "./components/About.jsx";
 
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
+import Home from "./components/Home.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Skills from "./components/Skills.jsx";
+import Work from "./components/Work.jsx";
 
 
 function App() {
