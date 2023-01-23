@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import SobierajFavicon from '../assets/sobierajFavicon.png'
-import { Link } from 'react-scroll';
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -22,24 +22,16 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={500}>
-            Home
-          </Link>
+        <a href='/'>home</a>
         </li>
         <li>
-          <Link to='about' smooth={true} duration={500}>
-            About
-          </Link>
+        <a href='/about'>about</a>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
+        <a href='/skills'>skills</a>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
-          </Link>
+        <a href='/work'>work</a>
         </li>
        
       </ul>
@@ -50,7 +42,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <ul
+      {/* <ul
         className={
           !nav
             ? 'hidden'
@@ -81,7 +73,7 @@ const Navbar = () => {
           </Link>
         </li>
         
-      </ul>
+      </ul> */}
 
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
