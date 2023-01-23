@@ -1,25 +1,21 @@
-import './App.css';
-import React from "react";
+import About from "./components/About";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
 
-import Footer from './components/footer'
-import PortfolioContainer from './components/portfoliocontainer';
-import TopBar from './components/Topbar';
-
-import Home from "../src/Pages/Home"
-import About from "../src/Pages/About"
-import Contact from '../src/Pages/Contact'
-import Resume from '../src/Pages/Resume'
 
 function App() {
   return (
-   <div className= 'app'> 
-   <TopBar/>
-   <PortfolioContainer/>
-   <Footer/>
-  </div>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Work />
+      
+    </div>
   );
 }
 
